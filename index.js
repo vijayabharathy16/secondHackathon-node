@@ -13,7 +13,7 @@ app.use(
   })
 );
 
-const URL = "mongodb+srv://vasanth:admin123@cluster0.ni9t3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const URL = "mongodb+srv://vijay:admin123@cluster0.ni9t3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 let users = [];
 
 function authenticate(req,res,next){
@@ -208,3 +208,9 @@ app.post("/login", async function (req, res) {
 
 
 app.listen(process.env.PORT || 3001);
+
+
+
+
+
+
